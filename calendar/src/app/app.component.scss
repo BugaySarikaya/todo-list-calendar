@@ -1,0 +1,40 @@
+h3 {
+  margin: 0 0 10px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.btn-group, .btn-group-vertical {
+  display: inline-block !important;
+}
+
+.main {
+  padding: 40px;
+}
+
+:host ::ng-deep .form-control {
+  background-color: #fff !important;
+  cursor: pointer;
+}
+
+.events {
+  margin-top: 33px;
+}
+
+input {
+  vertical-align: middle;
+}
+
+.color-picker {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+:host ::ng-deep .cal-week-view .cal-all-day-events .cal-event-container {
+  position: relative !important;
+}
